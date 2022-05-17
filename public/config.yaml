@@ -1,0 +1,168 @@
+# 网站配置
+Config:
+  title: 沈理工网站大全 # 网页标题
+  logo: favicon.svg # logo 可以为 url
+  hide: true # 隐藏侧栏
+  link: https://jupitlove.top # Logo 跳转网页
+
+# 搜索栏设置
+Search:
+  学校: # 搜索组 1
+    学校官网: https://www.sylu.edu.cn
+    本科招生网: https://zs.sylu.edu.cn
+    教务处: https://jwc.sylu.edu.cn
+    人事处: https://rsc.sylu.edu.cn
+    兵器博物馆: https://bqbwg.sylu.edu.cn
+    就业信息网: https://job.sylu.edu.cn
+    图书馆: https://tsg.sylu.edu.cn
+    学工网: http://xg.sylu.edu.cn/SyluXG/Sys/
+    科技处: https://kjc.sylu.edu.cn
+    国际合作处: https://gjjlhzc.sylu.edu.cn
+
+    
+
+  学院:
+     汽车与交通学院: https://qiche.sylu.edu.cn
+     材料科学与工程学院: https://clygc.sylu.edu.cn
+     装备工程学院: https://zbgcxy.sylu.edu.cn
+     外国语学院: https://waiyu.sylu.edu.cn
+     艺术设计学院: https://yishusylu.edu.cn
+     经济管理学院: https://jjgl.sylu.edu.cn
+     自动化与电气工程学院: https://zdh.sylu.edu.cn/
+     信息科学与工程学院: https://sise.sylu.edu.cn/
+     机械学院: https://jixie.sylu.edu.cn/
+     环化学院: https://hhxy.sylu.edu.cn/
+     理学院: https://lxy.sylu.edu.cn/
+     研究生院: https://yanjiusheng.sylu.edu.cn/
+
+    
+  其他:
+     第二课堂: http://xg.sylu.edu.cn/SyluTW/Sys/SystemForm/Quit.aspx?ReturnUrl=%2fSyluTW%2fSys%2fSystemForm%2fmain.htm
+     后勤服务: https://hqjt.sylu.edu.cn/
+     图书馆书目监测系统: https://lib.sylu.edu.cn/opac/search_adv.php#/index
+
+    
+    
+# 标签组
+Tabox:
+  学校: # 标签组 1
+  logo: logo/学校.svg
+  description: 沈阳理工大学
+
+   学校官网:
+      - https://www.sylu.edu.cn
+      - School Official
+      - logo/xx.svg
+   本科招生网:
+      - https://zs.sylu.edu.cn
+      - Undergraduate Admissions
+      - logo/招生宣传.svg
+    教务处:
+      - https://jwc.sylu.edu.cn
+      - Academic Office
+      - logo/教务管理.svg
+    人事处:
+      - https://rsc.sylu.edu.cn
+      - Personnel Office
+      - logo/人事管理.svg
+    兵器博物馆:
+      - https://bqbwg.sylu.edu.cn
+       - Weapon Museum
+      - logo/兵器工业.svg
+    就业信息网:
+      - https://job.sylu.edu.cn
+      - Empoyment Information
+      - logo/就业信息.svg
+    图书馆:
+      - https://tsg.sylu.edu.cn
+      - Libary
+      - logo/图书馆.svg
+    学工网:
+      - http://xg.sylu.edu.cn/SyluXG/Sys/
+      - Learns network
+      - logo/学工.svg
+    科技处:
+      - https://kjc.sylu.edu.cn
+      - Technology
+      - logo/科技处.svg
+    国际合作处:
+      - https://gjjlhzc.sylu.edu.cn
+      - International Exchange Cooperation
+      - logo/国际合作.svg
+ 
+=======
+
+
+  学院:
+    logo: logo/学院.svg
+    description: 各院网站
+
+    汽车与交通学院:
+      - https://qiche.sylu.edu.cn
+      - Car and traffic
+      - logo/汽车交通.svg
+    材料科学与工程学院:
+      - https://clygc.sylu.edu.cn
+      - Materials Science and Engineering
+      - logo/材料科学.svg
+    装备工程学院:
+      - https://zbgcxy.sylu.edu.cn
+      - Equipment engineering
+      - logo/装备制造.svg
+    外国语学院:
+      - https://waiyu.sylu.edu.cn
+      - Foreigner
+      - logo/外国语学院.svg
+    艺术设计学院:
+      - https://yishusylu.edu.cn
+      - Art Design
+      - logo/艺术设计.svg
+    经济管理学院:
+      - https://jjgl.sylu.edu.cn
+      - Econmic management
+      - logo/经济管理.svg
+   自动化与电气工程学院:
+      - https://zdh.sylu.edu.cn/
+      - Automation and electrical engineering
+      - logo/电气自动化.svg
+    信息科学与工程学院:
+      - https://sise.sylu.edu.cn/
+      - Information Science and Engineering
+      - logo/信息工程.svg
+    机械学院:
+      - https://jixie.sylu.edu.cn/
+      - Mechanical
+      - logo/机械.svg
+    环化学院:
+      - https://hhxy.sylu.edu.cn/
+      - Environment and Chemistry
+      - logo/环化.svg
+    理学院:
+      - https://lxy.sylu.edu.cn/
+      - Faculty of science
+      - logo/理学院.svg
+    研究生院:
+      - https://yanjiusheng.sylu.edu.cn/
+      - The graduate school
+      - logo/研究生.svg
+
+
+  其他: # github 配置
+    logo: logo/其他.svg
+    description: 其他网站
+
+   
+    第二课堂:
+      - http://xg.sylu.edu.cn/SyluTW/Sys/SystemForm/Quit.aspx?ReturnUrl=%2fSyluTW%2fSys%2fSystemForm%2fmain.htm
+      - The second classroom
+      - logo/第二课堂.svg
+    后勤服务:
+      - https://hqjt.sylu.edu.cn/
+      - Logistics service
+      - logo/后勤服务.svg
+    图书馆书目监测系统:
+      - https://lib.sylu.edu.cn/opac/search_adv.php#/index
+      - Library bibliographic monitoring system
+      - logo/图书馆借.
+    
+   
